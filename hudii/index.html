@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+    
+<!-- Mirrored from edrp-official.com/browser/HUD/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Nov 2023 19:38:16 GMT -->
+<head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="container-hud" id="hud-1" style="display: block;">
+        <img src="img/bg.png"  width="260px"> <!-- äåëàþ êàðòèíêîé ò.ê åñëè çàäàâàòü ðàçìåðû îí áóäåò îãðîìåí -->
+            <img id="ammo" src="img/weapons/0.png" class="weapon-background" width="60px">
+                <a class="weapon" id="weapon">1</a>
+                <a class="weapon" id="max-weapon" style="left: 185px; font-size: 15px; top:88px">100</a>
+								<div class="bars-hp"> <progress id="h" class="health" value="10" max="100"></progress></div>
+								<div class="bars-arm"> <progress id="a" class="armour" value="20" max="100"></progress></div>
+								<div class="bars-eat"> <progress id="e" class="eat" value="30" max="100"></progress></div>
+								<div class="bars-drink"> <progress id="d" class="drink" value="40" max="100"></progress></div>
+            <a class="moneys" id="m">100.000.000$</a>
+            <img src="img/wanted.png" class="wanted-background" width="170px">
+                <img id="w0" style="display:none" src="img/hud_bg_wanted_star.png" class="wanted1" width="20px">
+                <img id="w1" style="display:none" src="img/hud_bg_wanted_star.png" class="wanted2" width="20px">
+                <img id="w2" style="display:none" src="img/hud_bg_wanted_star.png" class="wanted3" width="20px">
+                <img id="w3" style="display:none" src="img/hud_bg_wanted_star.png" class="wanted4" width="20px">
+                <img id="w4" style="display:none" src="img/hud_bg_wanted_star.png" class="wanted5" width="20px">
+                <img id="w5" style="display:none" src="img/hud_bg_wanted_star.png" class="wanted6" width="20px">
+    </div>
+    <div class="help-container" id="help" style="display: block;" >
+        <img src="img/infobox.png" width="190px">
+    </div>
+    <div class="gps-container" id="gps" style="display: none;" > 
+        <img src="img/gps_distance.png" width="190px"> 
+        <a class="weapon" style="top:16px; left:140px; font-size: 14px;" id="gps-tracker">100 M</a>
+    </div>
+    <div class="speed-container" id="speeds" style="display: none;">
+        <img src="img/speedometer.png" width="370px">
+            <!-- ñòðåëî÷êà -->
+            <a id="speed" class="arrow">000</a>
+            <a id="carhp" class="carhp">1500 hp</a>
+              
+					  <img id="arrow1" src="img/arrow.png" class="arrow1" width="9px"> 
+            <img  id="engine" src="img/engine.png" class="engine" width="30px">
+            <img  id="keys" src="img/keysoff.png" class="keys" width="30px">
+            <img  id="far" src="img/far.png" class="far" width="30px">
+
+            <!-- fooder ÷àñòü -->
+            <progress id="benz" class="benz" value="0" max="150"></progress>
+    </div>
+</body>
+<script src="data.js"></script>
+
+<!-- Mirrored from edrp-official.com/browser/HUD/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Nov 2023 19:38:20 GMT -->
+</html>

@@ -1,0 +1,337 @@
+@font-face {
+  font-family: 'Bochild';
+  src: url(Bochild.ttf) format('TrueType');
+}
+.speed-container
+{
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+.carhp
+{
+    position: absolute;
+    font-family: 'Bochild',Arial, Helvetica, sans-serif;
+    color: white;
+    left:241px;
+    top:115px;
+		text-align: inherit;   
+    font-size: 18px;
+}
+.arrow
+{
+    position: absolute;
+    font-family: 'Bochild',Arial, Helvetica, sans-serif;
+    color:white;
+    left:63px;
+    top:80Px;
+		text-align: inherit;   
+    font-size: 37px;
+}
+.arrow1
+{
+    position: absolute;
+    left:95px;
+    top:88px;    
+    font-size: 50px;
+    transform: rotate(-315deg) translateY(65px); 
+}
+.engine
+{
+    position: absolute;
+    left:190px;
+    top:70Px;  
+}
+.keys
+{
+    position: absolute;
+    left:260px;
+    top:28Px;  
+}
+.far
+{    
+    position: absolute;
+    left:325px;
+    top:70Px;
+}
+.gps-container
+{ 
+    position: absolute;
+	bottom: 15px;
+	right: 455px;
+}
+.help-container
+{
+    position: absolute;
+		bottom: 30%;
+		left: 0.5%;  
+}
+
+.help-container img {
+    max-width: 60px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+}
+.container-hud
+{
+    float: right;
+    position: relative;
+}
+
+.wanted1{
+    position: absolute;
+    top:290px;
+    left:49px;
+}
+.wanted2{
+    position: absolute;
+    top:290px;
+    left:77px;
+}
+.wanted3{
+    position: absolute;
+    top:290px;
+    left:106px;
+}
+.wanted4{
+    position: absolute;
+    top:290px;
+    left:134px;
+}
+.wanted5{
+    position: absolute;
+    top:290px;
+    left:162px;
+}
+.wanted6{
+    position: absolute;
+    top:290px;
+    left:190px;
+}
+.weapon
+{
+    left:120px;
+    top:105px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 20px;
+}
+.max-weapon
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weapon-background
+{
+    position: absolute;
+    left:40px;
+    top:70px;
+}
+.wanted-background
+{
+    position: absolute;
+    left:45px;
+    top:285px;
+}
+.moneys
+{
+    color: #0FFF00;
+    position: absolute;
+    font-size: 24px;
+		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif;
+    left:82px;
+    top:250px;
+}
+.bars-hp
+{
+    top: 129.1px;
+    left:58.8px;
+		position: absolute;
+}
+.bars-arm
+{
+    top:133.8px;
+    left:58.8px;
+		position: absolute;
+}
+.bars-eat
+{
+    top:170.8px;
+    left:58.8px;
+		position: absolute;
+}
+.bars-drink
+{
+    top:200.5px;
+    left:58.8px;
+		position: absolute;
+}
+progress.health{
+	border-radius: 8px;
+	width: 139px;
+	height: 6px;
+    position: relative;
+  }
+
+  progress.health::-webkit-progress-bar {
+      background-color: rgb(82, 82, 82);
+      border-radius: 8px;
+  }
+  progress.health::-webkit-progress-value {
+      background-color: #c62c8e;
+      background-image: linear-gradient(#c62c8e, #c62c8e);
+      border-radius: 8px;
+  }
+  progress.health::-moz-progress-bar {
+    background-color: #c62c8e;
+    background-image: linear-gradient(#c62c8e, #c62c8e);
+      border-radius: 8px;
+  }
+
+	progress.armour{
+		border-radius: 8px;
+		width: 139px;
+		height: 6px;
+			top:20px;
+			position: relative;
+	
+		}
+	
+		progress.armour::-webkit-progress-bar {
+				background-color: rgb(82, 82, 82);
+				border-radius: 8px;
+		}
+		progress.armour::-webkit-progress-value {
+				background-color: #feffff;
+				background-image: linear-gradient(#feffff, #feffff);
+				border-radius: 8px;
+		}
+		progress.armour::-moz-progress-bar {
+			background-color: #feffff;
+			background-image: linear-gradient(#feffff, #feffff);
+			border-radius: 8px;
+		}
+
+  progress.eat{
+	border-radius: 8px;
+	width: 139px;
+	height: 6px;
+    top:10px;
+    position: relative;
+  }
+
+  progress.eat::-webkit-progress-bar {
+      background-color: rgb(82, 82, 82);
+      border-radius: 8px;
+  }
+  progress.eat::-webkit-progress-value {
+      background-color: #FFA81B;
+      background-image: linear-gradient(#FFA81B, #FFA81B);
+      border-radius: 8px;
+  }
+  progress.eat::-moz-progress-bar {
+    background-color: #FFA81B;
+    background-image: linear-gradient(#FFA81B, #FFA81B);
+      border-radius: 8px;
+  }
+
+	progress.drink{
+		border-radius: 8px;
+		width: 139px;
+		height: 6px;
+			top:10px;
+			position: relative;
+		}
+	
+		progress.drink::-webkit-progress-bar {
+				background-color: rgb(82, 82, 82);
+				border-radius: 8px;
+		}
+		progress.drink::-webkit-progress-value {
+				background-color: #00D4DA;
+				background-image: linear-gradient(#00D4DA, #00D4DA);
+				border-radius: 8px;
+		}
+		progress.drink::-moz-progress-bar {
+			background-color: #00D4DA;
+			background-image: linear-gradient(#00D4DA, #00D4DA);
+				border-radius: 8px;
+		}
+
+  progress.benz{
+	border-radius: 2px;
+	width: 125px;
+	height: 8px;
+    left:215px;
+    top:153px;
+    position: absolute;
+
+  }
+
+  progress.benz::-webkit-progress-bar {
+      background-color: rgb(82, 82, 82);
+      border-radius: 2px;
+  }
+  progress.benz::-webkit-progress-value {
+      background-color: #feffff;
+      background-image: linear-gradient(100deg, #004C0D, #00FF2A);
+      border-radius: 2px;
+  }
+  progress.benz::-moz-progress-bar {
+    background-color: #feffff;
+    background-image: linear-gradient(100deg, #004C0D, #00FF2A);
+    border-radius: 2px;
+  }
+	@media (min-width: 1675px) and (max-width: 1685px) {
+		.container-hud, .speed-container, .gps-container, .help-container
+		{
+			zoom: 0.93;
+		}
+	}
+	@media (min-width: 1595px) and (max-width: 1605px) {
+		.container-hud, .speed-container, .gps-container, .help-container
+		{
+			zoom: 0.88;
+		}
+	}
+	@media (min-width: 1435px) and (max-width: 1445px) {
+		.container-hud, .speed-container, .gps-container, .help-container
+		{
+			zoom: 0.85;
+		}
+	}
+	@media (min-width: 1395px) and (max-width: 1405px) {
+		.container-hud, .speed-container, .gps-container, .help-container
+		{
+			zoom: 0.8;
+		}
+	}
+	@media (min-width: 1350px) and (max-width: 1375px) {
+		.container-hud, .speed-container, .gps-container, .help-container
+		{
+			zoom: 0.75;
+		}
+	}
+	@media (min-width: 1270px) and (max-width: 1290px) {
+		.container-hud, .speed-container, .gps-container, .help-container
+		{
+			zoom: 0.70;
+		}
+	}
+	@media (min-width: 1140px) and (max-width: 1165px) {
+		.container-hud, .speed-container, .gps-container, .help-container
+		{
+			zoom: 0.65;
+		}
+	}
+	@media (min-width: 1000px) and (max-width: 1050px) {
+		.container-hud, .speed-container, .gps-container, .help-container
+		{
+			zoom: 0.6;
+		}
+	}
+	@media (min-width: 600px) and (max-width: 850px) {
+		.container-hud, .speed-container, .gps-container, .help-container
+		{
+			zoom: 0.55;
+		}
+	}
