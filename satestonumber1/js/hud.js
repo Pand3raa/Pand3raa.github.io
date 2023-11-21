@@ -8,7 +8,7 @@ let backs = document.getElementById('backid');
 
 cef.emit("game:hud:setComponentVisible", "interface", false);
 cef.on("background:id", (back) => {
-	backs.src = "../hud/image/background/" + back + ".png";
+	backs.src = "/hud/image/background/" + back + ".png";
 });
 
 cef.on("game:hud:newVisibleState", (success) => {
@@ -21,10 +21,10 @@ cef.on("game:data:playerStats", (hp, max_hp, arm, breath, wanted, weapon, ammo, 
 	armour.value = arm;
 	moneys.innerHTML = money;
 	
-	guns.src = "../hud/image/guns/" + weapon + ".png";
+	guns.src = "/hud/image/guns/" + weapon + ".png";
 	
 	if(wanted > 10) return;
-	else wanteds.src = "../hud/image/wanted/wanted-" + wanted + ".png";
+	else wanteds.src = "/hud/image/wanted/wanted-" + wanted + ".png";
 	
 	if(weapon == 0)	ammos.innerHTML = "";
 	else ammos.innerHTML = ammo + "/" + max_ammo;
